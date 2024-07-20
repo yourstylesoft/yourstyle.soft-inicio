@@ -1,0 +1,1 @@
+# yourstyle.soft-inicio
