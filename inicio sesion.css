@@ -1,0 +1,99 @@
+
+*{
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+   transition: .2s linear;
+       
+}
+
+html{
+ font-size: 65%;
+ scroll-behavior: smooth;
+ scroll-padding-top: 6rem;
+ overflow-x: hidden;
+}
+
+header{
+ position: fixed;
+ top: 0; left: 0; right: 0;
+ background: #a4d8ec;
+ padding: 0rem 5%;
+ display: flex;
+ align-items:center;
+ justify-content: space-between;
+ z-index: 1000;
+ box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+ height: 75px;
+}
+
+.logo img{
+   height: 99px;
+   margin-right: 1px;
+}
+
+
+
+header .encabezado a{
+   font-size: 1.9rem;
+   padding: 0 1.5rem;
+   color: #000000;
+   margin-left: 30px;
+   width: right;
+}
+
+header .encabezado a:hover{
+   color: #a4d8ec;;
+}
+
+
+body {
+   font-family: 'Arial', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   color:  #ffffff;
+}
+
+.login-container, .welcome-container {
+   background: #a4d8ec;;
+   padding: 60px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+.login-container h2, .welcome-container h2 {
+   color: #000000;
+}
+
+.input-field {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.login-button {
+   background:#7197ff ;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 100%;
+   margin-top: 20px;
+}
+
+.login-button:hover {
+   background: #6B73FF;
+}
+
+.message {
+   margin-top: 20px;
+   color: #ff0000;
+}
